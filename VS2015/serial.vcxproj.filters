@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Serial">
+      <UniqueIdentifier>{7648641f-2b6b-4c44-94b2-52724a32adfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="file_operation%28%29">
+      <UniqueIdentifier>{007f50f7-762f-41eb-aa3f-ec6b2ec6ac4c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\file_operation()\close().jpg">
+      <Filter>file_operation%28%29</Filter>
+    </Image>
+    <Image Include="..\file_operation()\open().jpg">
+      <Filter>file_operation%28%29</Filter>
+    </Image>
+    <Image Include="..\file_operation()\read().jpg">
+      <Filter>file_operation%28%29</Filter>
+    </Image>
+    <Image Include="..\file_operation()\write().jpg">
+      <Filter>file_operation%28%29</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\main.cpp">
+      <Filter>Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\serial.cpp">
+      <Filter>Serial</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\serial.h">
+      <Filter>Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\termios.h">
+      <Filter>Serial</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
